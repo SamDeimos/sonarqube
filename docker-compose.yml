@@ -2,7 +2,7 @@ version: "2"
 
 services:
   sonarqube:
-    image: sonarqube
+    image: mwizner/sonarqube:8.9.5-community
     depends_on:
       - dbsonar
     ports:
